@@ -21,7 +21,7 @@ def map_heatmap():
 
 
 
-@app.route('/pollution/realtime')
+@app.route('/pollution/realtime',method=['GET','POST'])
 
 def pollution_realtime():
 
